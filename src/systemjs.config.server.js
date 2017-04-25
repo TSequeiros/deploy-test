@@ -1,13 +1,8 @@
-﻿/**
- * System configuration for deployment without installing node_modules
- * Loads umd packages from the web instead
- * Adjust as necessary for your application needs.
- */
-(function (global) {
+﻿(function (global) {
     System.config({
         paths: {
-            // 'npm:': 'https://unpkg.com/' // path serves as alias
-            'npm' : 'node_modules/'
+            'npm:': 'https://unpkg.com/' // path serves as alias
+            // 'npm' : 'node_modules/'
         },
         // map tells the System loader where to look for things
         map: {
