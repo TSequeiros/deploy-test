@@ -12,7 +12,7 @@
         // transpiler: false,
         // map tells the System loader where to look for things
         map: {
-            app: 'app', // location of transpiled app files
+            app: 'src', // location of transpiled app files
             // angular minimized umd bundles
             '@angular/core': 'npm:@angular/core/bundles/core.umd.min.js',
             '@angular/common': 'npm:@angular/common/bundles/common.umd.min.js',
