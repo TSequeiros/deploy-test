@@ -9,7 +9,7 @@
             'npm:': 'https://unpkg.com/' // path serves as alias
             // 'npm' : 'node_modules' 
         },
-        // transpiler: false,
+        transpiler: 'TypeScript',
         // map tells the System loader where to look for things
         map: {
             app: '', // location of transpiled app files
