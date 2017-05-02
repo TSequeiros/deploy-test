@@ -9,6 +9,7 @@
             'npm:': 'https://unpkg.com/' // path serves as alias
             // 'npm' : 'node_modules' 
         },
+        // transpiler defaults to Traceur. ES6 modules need transpiling
         // transpiler: 'TypeScript',
         // map tells the System loader where to look for things
         map: {
