@@ -4,8 +4,6 @@
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "listEmittedFiles" : true,
-    "lib": ["es6", "dom"],
     "mapRoot": "./",
     "module": "commonjs",
     "moduleResolution": "node",
